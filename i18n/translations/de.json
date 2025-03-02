@@ -1,0 +1,22 @@
+{
+  "common": {
+    "copied": "Kopiert!",
+    "copy": "Kopieren",
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "warning": "Warnung"
+  },
+  "navigation": {
+    "accounts": "Konten",
+    "authenticator": "Authenticator",
+    "add": "Hinzufügen",
+    "addAccount": "Konto hinzufügen",
+    "passwords": "Passwörter",
+    "settings": "Einstellungen",
+    "passwordGenerator": "Passwortgenerator"
+  }
+}

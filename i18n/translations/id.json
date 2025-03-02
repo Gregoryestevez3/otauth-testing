@@ -1,0 +1,32 @@
+{
+  "common": {
+    "copied": "Disalin!",
+    "copy": "Salin",
+    "cancel": "Batal",
+    "ok": "OK",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "warning": "Peringatan"
+  },
+  "navigation": {
+    "accounts": "Akun",
+    "authenticator": "Otentikator",
+    "add": "Tambah",
+    "addAccount": "Tambah Akun",
+    "passwords": "Kata Sandi",
+    "settings": "Pengaturan",
+    "passwordGenerator": "Generator Kata Sandi"
+  },
+  "settings": {
+    "appearance": "Tampilan",
+    "themeMode": "Mode Tema",
+    "system": "Sistem",
+    "light": "Terang",
+    "dark": "Gelap",
+    "language": "Bahasa",
+    "selectLanguage": "Pilih Bahasa",
+    "themeToggle": "Ubah Tema"
+  }
+}

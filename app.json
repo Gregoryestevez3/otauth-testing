@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "Onetime Authenticator",
+    "slug": "otauth",
+    "version": "1.0.0",
+    "description": "A secure two-factor authentication app for managing your TOTP tokens",
+    "orientation": "portrait",
+    "owner": "gtechinnovationinc",
+    "icon": "./assets/images/icon.png",
+    "scheme": "onetime",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5E6AD2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gtechinnovation.otauth",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need access to your camera to scan QR codes for account setup.",
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to import QR codes from existing authenticator apps."
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#5E6AD2"
+      },
+      "package": "com.gtechinnovation.otauth",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"],
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to scan QR codes."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos to import QR codes from images."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "389b4f86-64f2-4ae0-b314-ad6cdf84b34d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
